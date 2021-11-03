@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T07:40:49.951Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="gTdit0I75xtBv4n1wGYG" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T07:41:30.970Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="ztl1GyCbiqCzhg_gyWAW" version="15.6.6" type="github">
   <diagram id="rORjgk0GOdBi2ZtZiDBJ" name="Page-1">
     <mxGraphModel dx="1350" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,7 +136,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_LXkp8u61DvivmJY9k2K-31" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;fontColor=default;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="_LXkp8u61DvivmJY9k2K-31" value="MQ消息队列" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;fontColor=default;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="180" y="560" width="73.5" height="48" as="geometry" />
         </mxCell>
         <mxCell id="_LXkp8u61DvivmJY9k2K-55" value="设置参数" style="curved=1;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=#001DBC;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fillColor=#0050ef;" edge="1" parent="1" source="_LXkp8u61DvivmJY9k2K-13" target="_LXkp8u61DvivmJY9k2K-19">
