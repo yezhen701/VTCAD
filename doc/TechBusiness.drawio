@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T05:48:17.878Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.6.6" etag="joUDvXVm9ZdO99qOHsiw" type="github"><diagram id="rORjgk0GOdBi2ZtZiDBJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-03T06:36:10.841Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="WM-PUqZ0otNzuWR81OUu" version="15.6.6" type="github">
+  <diagram id="rORjgk0GOdBi2ZtZiDBJ" name="Page-1">
+    <mxGraphModel dx="1350" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_LXkp8u61DvivmJY9k2K-13" value="WEB" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#001DBC;fillColor=#0050ef;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-15" value="store" style="swimlane;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="190" y="690" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-12" value="mongoDB" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=18;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-15">
+          <mxGeometry x="30" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-29" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-15">
+          <mxGeometry x="180" y="40" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-18" value="nginx" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#B20000;fillColor=#e51400;" vertex="1" parent="1">
+          <mxGeometry x="360" y="180" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-23" value="SpringBoot-基础设置，仿真任务发布" style="swimlane;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="100" y="373" width="380" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-19" value="Java-serviceA-1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-23">
+          <mxGeometry x="10" y="40" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-20" value="Java-serviceA-2" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#B20000;fillColor=#e51400;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-23">
+          <mxGeometry x="144.5" y="40" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-21" value="Java-serviceA-3" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#B20000;fillColor=#e51400;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-23">
+          <mxGeometry x="270" y="40" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-24" value="SpringBoot" style="swimlane;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="720" y="400" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-25" value="Java-serviceB-1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-24">
+          <mxGeometry x="20" y="40" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-26" value="Java-serviceB-2" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-24">
+          <mxGeometry x="144.5" y="40" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-27" value="Java-serviceB-3" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-24">
+          <mxGeometry x="270" y="40" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-30" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;fontColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="585" y="373" width="73.5" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-31" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;fontColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="586" y="470" width="73.5" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
