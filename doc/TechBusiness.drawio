@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T08:57:05.308Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="0OK16cRgJJnsiAZHypUF" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T09:11:00.751Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="y1nYqg23ciYniJ_w5im5" version="15.6.6" type="github">
   <diagram id="rORjgk0GOdBi2ZtZiDBJ" name="Page-1">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -373,6 +373,12 @@
           <mxGeometry x="0.0575" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-125" value="&lt;ul&gt;&lt;li&gt;用户&lt;/li&gt;&lt;li&gt;菜单&amp;nbsp;&lt;/li&gt;&lt;li&gt;角色...&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;shadow=0;dashed=1;dashPattern=1 1;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1100" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-126" value="&lt;ul&gt;&lt;li&gt;物料&lt;/li&gt;&lt;li&gt;图像...&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;shadow=0;dashed=1;dashPattern=1 1;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1090" width="90" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
