@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T01:08:56.577Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="-Yg420FyGb78BuzWR3OK" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T01:39:22.303Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="DCLorp_MZcb1r91tYT93" version="15.6.6" type="github">
   <diagram id="M3pgbx5bHdetkU3iyQLA" name="Page-1">
     <mxGraphModel dx="1350" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -55,26 +55,8 @@
             <mxPoint x="639" y="298" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EqJAyEwIwQtf8HZJKhll-57" value="" style="swimlane;startSize=0;fontSize=18;strokeColor=#ff33cc;strokeWidth=3;" parent="1" vertex="1">
+        <mxCell id="EqJAyEwIwQtf8HZJKhll-57" value="" style="swimlane;startSize=0;fontSize=18;strokeColor=#ff33cc;strokeWidth=3;fillColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="30" y="548" width="1020" height="863" as="geometry" />
-        </mxCell>
-        <mxCell id="EqJAyEwIwQtf8HZJKhll-59" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Spring Cloud Task&lt;/span&gt;" style="rounded=1;align=center;fillColor=#FF0000;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="EqJAyEwIwQtf8HZJKhll-57" vertex="1">
-          <mxGeometry x="38" y="20" width="132" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EqJAyEwIwQtf8HZJKhll-60" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Spring Cloud Stream&lt;/span&gt;&lt;div style=&quot;resize: none ; outline: none ; color: rgb(50 , 50 , 50)&quot;&gt;只支持 RabbitMQ 和 Kafka&amp;nbsp;&lt;/div&gt;" style="rounded=1;align=center;fillColor=#FF3333;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="EqJAyEwIwQtf8HZJKhll-57" vertex="1">
-          <mxGeometry x="38" y="100" width="132" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EqJAyEwIwQtf8HZJKhll-61" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Rabbit/Zero MQ&lt;/span&gt;" style="rounded=1;align=center;fillColor=#ffff66;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="EqJAyEwIwQtf8HZJKhll-57" vertex="1">
-          <mxGeometry x="38" y="197" width="132" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EqJAyEwIwQtf8HZJKhll-62" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Maven&lt;/span&gt;" style="rounded=1;align=center;fillColor=#FF0000;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="EqJAyEwIwQtf8HZJKhll-57" vertex="1">
-          <mxGeometry x="38" y="290" width="132" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EqJAyEwIwQtf8HZJKhll-63" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Docker&lt;/span&gt;" style="rounded=1;align=center;fillColor=#FF0000;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="EqJAyEwIwQtf8HZJKhll-57" vertex="1">
-          <mxGeometry x="38" y="390" width="132" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EqJAyEwIwQtf8HZJKhll-64" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Netty/SSH&lt;/span&gt;&lt;div style=&quot;resize: none ; outline: none ; color: rgb(50 , 50 , 50)&quot;&gt;数据加密，提高安全性&lt;br&gt;数据压缩，&lt;/div&gt;&lt;div style=&quot;resize: none ; outline: none ; color: rgb(50 , 50 , 50)&quot;&gt;提高网络的传输速度&lt;/div&gt;" style="rounded=1;align=center;fillColor=#FF0000;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="EqJAyEwIwQtf8HZJKhll-57" vertex="1">
-          <mxGeometry x="38" y="490" width="132" height="90" as="geometry" />
         </mxCell>
         <mxCell id="EqJAyEwIwQtf8HZJKhll-68" value="" style="swimlane;startSize=0;fontSize=18;strokeWidth=3;fillColor=#F8CECC;strokeColor=#F8CECC;" parent="EqJAyEwIwQtf8HZJKhll-57" vertex="1">
           <mxGeometry x="280" y="61" width="210" height="196" as="geometry" />
@@ -181,6 +163,33 @@
               <mxPoint x="360" y="383" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6ueNk5x9_vGmj-fJjQVf-9" value="&lt;font color=&quot;#323232&quot;&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;SpringBoot&lt;/span&gt;&lt;/font&gt;" style="rounded=1;align=center;fillColor=#0000FF;strokeColor=none;html=1;fontColor=#596780;fontSize=12" vertex="1" parent="EqJAyEwIwQtf8HZJKhll-57">
+          <mxGeometry x="44" y="32" width="132" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6ueNk5x9_vGmj-fJjQVf-11" value="" style="swimlane;startSize=0;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="EqJAyEwIwQtf8HZJKhll-57">
+          <mxGeometry x="10" y="192" width="200" height="537.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EqJAyEwIwQtf8HZJKhll-59" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Spring Cloud Task&lt;/span&gt;" style="rounded=1;align=center;fillColor=#FF0000;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="6ueNk5x9_vGmj-fJjQVf-11" vertex="1">
+          <mxGeometry x="35.80000000000001" y="20" width="132" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EqJAyEwIwQtf8HZJKhll-60" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Spring Cloud Stream&lt;/span&gt;&lt;div style=&quot;resize: none ; outline: none ; color: rgb(50 , 50 , 50)&quot;&gt;只支持 RabbitMQ 和 Kafka&amp;nbsp;&lt;/div&gt;" style="rounded=1;align=center;fillColor=#FF3333;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="6ueNk5x9_vGmj-fJjQVf-11" vertex="1">
+          <mxGeometry x="34" y="105" width="132" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EqJAyEwIwQtf8HZJKhll-61" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Rabbit/Zero MQ&lt;/span&gt;" style="rounded=1;align=center;fillColor=#ffff66;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="6ueNk5x9_vGmj-fJjQVf-11" vertex="1">
+          <mxGeometry x="35.8" y="176.5" width="132" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EqJAyEwIwQtf8HZJKhll-62" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Maven&lt;/span&gt;" style="rounded=1;align=center;fillColor=#FF0000;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="6ueNk5x9_vGmj-fJjQVf-11" vertex="1">
+          <mxGeometry x="34" y="255" width="132" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EqJAyEwIwQtf8HZJKhll-63" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Docker&lt;/span&gt;" style="rounded=1;align=center;fillColor=#FF0000;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="6ueNk5x9_vGmj-fJjQVf-11" vertex="1">
+          <mxGeometry x="34" y="335" width="132" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EqJAyEwIwQtf8HZJKhll-64" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Netty/SSH&lt;/span&gt;&lt;div style=&quot;resize: none ; outline: none ; color: rgb(50 , 50 , 50)&quot;&gt;数据加密，提高安全性&lt;br&gt;数据压缩，&lt;/div&gt;&lt;div style=&quot;resize: none ; outline: none ; color: rgb(50 , 50 , 50)&quot;&gt;提高网络的传输速度&lt;/div&gt;" style="rounded=1;align=center;fillColor=#FF0000;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="6ueNk5x9_vGmj-fJjQVf-11" vertex="1">
+          <mxGeometry x="35.8" y="425" width="132" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6ueNk5x9_vGmj-fJjQVf-14" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="EqJAyEwIwQtf8HZJKhll-57">
+          <mxGeometry x="80" y="92" width="60" height="100" as="geometry" />
         </mxCell>
         <mxCell id="EqJAyEwIwQtf8HZJKhll-78" value="平台监控" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="865" y="752" width="90" height="30" as="geometry" />
@@ -363,6 +372,9 @@
         </mxCell>
         <mxCell id="6ueNk5x9_vGmj-fJjQVf-8" value="任务执行器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="6ueNk5x9_vGmj-fJjQVf-3">
           <mxGeometry x="120" y="7" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ueNk5x9_vGmj-fJjQVf-13" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="550" y="850" width="60" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
