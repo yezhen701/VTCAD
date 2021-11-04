@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T01:11:59.355Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="qQWKAorSYSxIMLwsBIsm" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T01:17:22.051Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Gbml6uDCHWM1lMysxp6L" version="15.6.6" type="github">
   <diagram id="M3pgbx5bHdetkU3iyQLA" name="Page-1">
     <mxGraphModel dx="1350" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="EqJAyEwIwQtf8HZJKhll-47" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Spring Cloud Gateway&lt;br&gt;/nginx&lt;br&gt;&lt;/span&gt;" style="rounded=1;align=center;fillColor=#FFFF00;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="EqJAyEwIwQtf8HZJKhll-36" vertex="1">
           <mxGeometry x="38" y="20" width="132" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EqJAyEwIwQtf8HZJKhll-48" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;ReSTful、WebSocket&lt;/span&gt;" style="rounded=1;align=center;fillColor=#ffff66;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="EqJAyEwIwQtf8HZJKhll-36" vertex="1">
+        <mxCell id="EqJAyEwIwQtf8HZJKhll-48" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;ReSTful、SocketIO&lt;/span&gt;" style="rounded=1;align=center;fillColor=#ffff66;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="EqJAyEwIwQtf8HZJKhll-36" vertex="1">
           <mxGeometry x="38" y="100" width="132" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EqJAyEwIwQtf8HZJKhll-49" value="项目数据设置" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;exitPerimeter=0;" parent="1" source="EqJAyEwIwQtf8HZJKhll-8" target="EqJAyEwIwQtf8HZJKhll-36" edge="1">
