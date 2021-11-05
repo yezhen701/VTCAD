@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T02:43:08.735Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="wcxG6efcPfTgoTCsiER7" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-05T05:05:48.573Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="4gRCduwDvI2rUprld2Fn" version="15.6.6" type="github">
   <diagram id="rORjgk0GOdBi2ZtZiDBJ" name="Page-1">
-    <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1350" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -390,6 +390,9 @@
         </mxCell>
         <mxCell id="_LXkp8u61DvivmJY9k2K-136" value="设置参数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="200" y="280" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_LXkp8u61DvivmJY9k2K-140" value="&lt;span style=&quot;font-size: 12px&quot;&gt;javaB发送&lt;br&gt;下次任务&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;shadow=0;dashed=1;dashPattern=1 1;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="271" y="600" width="69" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
