@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T05:06:57.292Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="7Eh2PMGfUwbtjp0A2gNx" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-05T05:07:52.783Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="dOaYzvSwgFnoJQbrO3RS" version="15.6.6" type="github">
   <diagram id="rORjgk0GOdBi2ZtZiDBJ" name="Page-1">
     <mxGraphModel dx="1350" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="_LXkp8u61DvivmJY9k2K-133" value="Java-serviceA-4" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#001DBC;fillColor=#0050ef;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-23">
           <mxGeometry x="395" y="40" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_LXkp8u61DvivmJY9k2K-24" value="SpringBoot" style="swimlane;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="_LXkp8u61DvivmJY9k2K-24" value="serve" style="swimlane;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="360" y="640" width="450" height="470" as="geometry" />
         </mxCell>
         <mxCell id="_LXkp8u61DvivmJY9k2K-35" value="" style="swimlane;startSize=0;fontColor=#333333;strokeColor=#666666;fillColor=#E6E6E6;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-24">
