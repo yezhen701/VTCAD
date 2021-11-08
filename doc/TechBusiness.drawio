@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T05:08:26.493Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="3m5jTyJbvgOgQIT7rEBw" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T02:36:13.555Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="QEkZsWAZSXSpZxCk6Hrv" version="15.6.6" type="github">
   <diagram id="rORjgk0GOdBi2ZtZiDBJ" name="Page-1">
-    <mxGraphModel dx="1350" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,7 +64,7 @@
         <mxCell id="_LXkp8u61DvivmJY9k2K-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=#001DBC;fillColor=#0050ef;" edge="1" parent="_LXkp8u61DvivmJY9k2K-36" source="_LXkp8u61DvivmJY9k2K-38" target="_LXkp8u61DvivmJY9k2K-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_LXkp8u61DvivmJY9k2K-76" value="生成仿真结果文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="_LXkp8u61DvivmJY9k2K-75">
+        <mxCell id="_LXkp8u61DvivmJY9k2K-76" value="生成仿真结果文件&lt;br&gt;生成仿真流程日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="_LXkp8u61DvivmJY9k2K-75">
           <mxGeometry x="0.1806" y="-2" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -240,7 +240,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_LXkp8u61DvivmJY9k2K-69" value="监听仿真任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="_LXkp8u61DvivmJY9k2K-68">
+        <mxCell id="_LXkp8u61DvivmJY9k2K-69" value="监听仿真任务(任务合法性验证)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="_LXkp8u61DvivmJY9k2K-68">
           <mxGeometry x="0.1397" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
