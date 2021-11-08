@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T02:54:02.208Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="pf3dIDLkPUORZnarFZfX" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T03:01:28.223Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="ZLHePo84R9JjOF4a4Ved" version="15.6.6" type="github">
   <diagram id="rORjgk0GOdBi2ZtZiDBJ" name="Page-1">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -460,19 +460,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_LXkp8u61DvivmJY9k2K-156" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;dashed=1;dashPattern=1 1;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;strokeWidth=2;fillColor=default;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="254" y="1360" width="170" height="170" as="geometry" />
+          <mxGeometry x="254" y="1360" width="236" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="_LXkp8u61DvivmJY9k2K-157" value="1.java按照用户-&amp;gt;项目-&amp;gt;流程&lt;br&gt;生存临时文件夹和临时文件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;dashed=1;dashPattern=1 1;labelBackgroundColor=default;fontSize=12;fontColor=default;html=1;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-156">
-          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        <mxCell id="_LXkp8u61DvivmJY9k2K-157" value="1.java按照用户-&amp;gt;项目-&amp;gt;流程&lt;br&gt;生存临时文件夹和临时文件" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;dashed=1;dashPattern=1 1;labelBackgroundColor=default;fontSize=12;fontColor=default;html=1;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-156">
+          <mxGeometry y="30" width="236" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_LXkp8u61DvivmJY9k2K-158" value="2.java 调用仿真.exe；&lt;br&gt;记录项目日志记录；&lt;br&gt;实时监听仿真过程数据" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;dashed=1;dashPattern=1 1;labelBackgroundColor=default;fontSize=12;fontColor=default;html=1;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-156">
-          <mxGeometry y="60" width="170" height="50" as="geometry" />
+        <mxCell id="_LXkp8u61DvivmJY9k2K-158" value="2.java 调用仿真.exe；&lt;br&gt;记录项目日志记录；&lt;br&gt;实时监听仿真过程数据" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;labelBackgroundColor=default;fontSize=12;html=1;fontColor=default;strokeWidth=1;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-156">
+          <mxGeometry y="60" width="236" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_LXkp8u61DvivmJY9k2K-159" value="3.仿真.exe在约定文件夹下生成仿真结果数据文件，仿真日志文件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;dashed=1;dashPattern=1 1;labelBackgroundColor=default;fontSize=12;fontColor=default;html=1;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-156">
-          <mxGeometry y="110" width="170" height="30" as="geometry" />
+        <mxCell id="_LXkp8u61DvivmJY9k2K-159" value="3.仿真.exe在约定文件夹下&lt;br&gt;生成仿真结果数据文件，&lt;br&gt;仿真日志文件" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;dashed=1;dashPattern=1 1;labelBackgroundColor=default;fontSize=12;fontColor=default;html=1;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-156">
+          <mxGeometry y="110" width="236" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_LXkp8u61DvivmJY9k2K-160" value="Item 4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;dashed=1;dashPattern=1 1;labelBackgroundColor=default;fontSize=12;fontColor=default;html=1;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-156">
-          <mxGeometry y="140" width="170" height="30" as="geometry" />
+        <mxCell id="_LXkp8u61DvivmJY9k2K-160" value="java获取仿真结束状态后，遍历约定&lt;br&gt;文件夹获取固定格式文件（结果文件，&lt;br&gt;仿真流程日志文件）按需存储-mongoDB或&lt;br&gt;上传-Amazon S3" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;dashed=1;dashPattern=1 1;labelBackgroundColor=default;fontSize=12;fontColor=default;html=1;" vertex="1" parent="_LXkp8u61DvivmJY9k2K-156">
+          <mxGeometry y="160" width="236" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_LXkp8u61DvivmJY9k2K-164" value="store" style="swimlane;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="510" y="1200" width="270" height="150" as="geometry" />
