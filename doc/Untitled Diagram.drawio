@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T06:00:47.197Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="GcO4APS4agZAaI3B6Io9" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T06:09:42.479Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Usin5LqGx9xQywtL-T9D" version="15.6.6" type="github">
   <diagram id="M3pgbx5bHdetkU3iyQLA" name="Page-1">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -70,8 +70,8 @@
         <mxCell id="EqJAyEwIwQtf8HZJKhll-71" value="任务调度器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="EqJAyEwIwQtf8HZJKhll-68" vertex="1">
           <mxGeometry x="30" y="21" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EqJAyEwIwQtf8HZJKhll-75" value="" style="swimlane;startSize=0;fontSize=18;strokeColor=#ff33cc;strokeWidth=3;" parent="EqJAyEwIwQtf8HZJKhll-57" vertex="1">
-          <mxGeometry x="780" y="190" width="210" height="180" as="geometry" />
+        <mxCell id="EqJAyEwIwQtf8HZJKhll-75" value="" style="swimlane;startSize=0;fontSize=18;strokeColor=#ff33cc;strokeWidth=3;fillColor=default;fontColor=default;" parent="EqJAyEwIwQtf8HZJKhll-57" vertex="1">
+          <mxGeometry x="780" y="194" width="210" height="180" as="geometry" />
         </mxCell>
         <mxCell id="EqJAyEwIwQtf8HZJKhll-76" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 12px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;InfluxDB&lt;/span&gt;&lt;div style=&quot;resize: none ; outline: none ; font-size: 12px ; color: rgb(50 , 50 , 50)&quot;&gt;时序数据库&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeColor=#ff33cc;fillColor=#FF66B3;" parent="EqJAyEwIwQtf8HZJKhll-75" vertex="1">
           <mxGeometry x="10" y="120" width="150" height="39" as="geometry" />
@@ -79,12 +79,12 @@
         <mxCell id="EqJAyEwIwQtf8HZJKhll-77" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 12px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Prometheus&lt;/span&gt;&lt;div style=&quot;resize: none ; outline: none ; font-size: 12px ; color: rgb(50 , 50 , 50)&quot;&gt;监控工具&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeColor=#ff33cc;fillColor=#FF66B3;" parent="EqJAyEwIwQtf8HZJKhll-75" vertex="1">
           <mxGeometry x="10" y="60" width="150" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="EqJAyEwIwQtf8HZJKhll-94" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="EqJAyEwIwQtf8HZJKhll-57" source="EqJAyEwIwQtf8HZJKhll-68" target="EqJAyEwIwQtf8HZJKhll-75" edge="1">
+        <mxCell id="EqJAyEwIwQtf8HZJKhll-94" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" parent="EqJAyEwIwQtf8HZJKhll-57" source="EqJAyEwIwQtf8HZJKhll-68" target="EqJAyEwIwQtf8HZJKhll-75" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="530" y="180" as="sourcePoint" />
             <mxPoint x="580" y="130" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="885" y="153" />
+              <mxPoint x="885" y="159" />
             </Array>
           </mxGeometry>
         </mxCell>
