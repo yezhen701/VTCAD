@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T03:16:00.705Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="a3ue3RPuZ14ixvOX_I4c" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T03:17:43.533Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="DLCUpSHmRA_TwdHB2XFC" version="15.6.6" type="github">
   <diagram id="qDoRCjZpvKYwgtijY3Rj" name="Page-1">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -480,6 +480,9 @@
           <mxGeometry x="-0.4027" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-137" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#ff3333&quot;&gt;一个项目只能在同一个服务器进行仿真&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1710" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
