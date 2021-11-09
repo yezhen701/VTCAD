@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T01:25:55.739Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="1AUlygHfKBQlXiFaPUBz" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T02:29:14.958Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="abpYixdgX-NF7WL0qzQl" version="15.6.6" type="github">
   <diagram id="qDoRCjZpvKYwgtijY3Rj" name="Page-1">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -55,20 +55,23 @@
             <mxPoint x="639" y="298" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-15" value="" style="swimlane;startSize=0;fontSize=18;strokeColor=#9673a6;strokeWidth=3;fillColor=#e1d5e7;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="30" y="548" width="1020" height="863" as="geometry" />
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-15" value="" style="swimlane;startSize=0;fontSize=18;strokeColor=default;strokeWidth=3;fillColor=#e1d5e7;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="19" y="520" width="1020" height="863" as="geometry" />
         </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-16" value="" style="swimlane;startSize=0;fontSize=18;strokeWidth=3;fillColor=#F8CECC;strokeColor=#F8CECC;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
-          <mxGeometry x="280" y="61" width="210" height="196" as="geometry" />
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-16" value="" style="swimlane;startSize=0;fontSize=18;strokeWidth=3;fillColor=#F8CECC;strokeColor=#F8CECC;fontColor=default;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
+          <mxGeometry x="281" y="70" width="210" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-17" value="调度策略" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-16">
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-17" value="定时任务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-16">
           <mxGeometry x="10" y="71" width="150" height="39" as="geometry" />
         </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-18" value="进度接收" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-16">
           <mxGeometry x="10" y="126" width="150" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-19" value="任务调度器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-16">
-          <mxGeometry x="30" y="21" width="110" height="30" as="geometry" />
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-19" value="任务调度器（java-web）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=default;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-16">
+          <mxGeometry y="21" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-109" value="调度策略" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=default;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-16">
+          <mxGeometry x="10" y="180" width="150" height="39" as="geometry" />
         </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-20" value="" style="swimlane;startSize=0;fontSize=18;strokeColor=#ff33cc;strokeWidth=3;fillColor=default;fontColor=default;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
           <mxGeometry x="780" y="194" width="210" height="180" as="geometry" />
@@ -79,7 +82,7 @@
         <mxCell id="FIGIB_8hsxKfk9FqheqO-22" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 12px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Prometheus&lt;/span&gt;&lt;div style=&quot;resize: none ; outline: none ; font-size: 12px ; color: rgb(50 , 50 , 50)&quot;&gt;监控工具&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeColor=#ff33cc;fillColor=#FF66B3;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-20">
           <mxGeometry x="10" y="60" width="150" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-23" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" parent="FIGIB_8hsxKfk9FqheqO-15" source="FIGIB_8hsxKfk9FqheqO-16" target="FIGIB_8hsxKfk9FqheqO-20">
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-23" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1.01;exitY=0.346;exitDx=0;exitDy=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;exitPerimeter=0;" edge="1" parent="FIGIB_8hsxKfk9FqheqO-15" source="FIGIB_8hsxKfk9FqheqO-16" target="FIGIB_8hsxKfk9FqheqO-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="530" y="180" as="sourcePoint" />
             <mxPoint x="580" y="130" as="targetPoint" />
@@ -104,21 +107,6 @@
             <mxPoint x="-1" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-27" value="任务分发队列" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;fontSize=18;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
-          <mxGeometry x="520" y="326" width="100" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-28" value="任务进度队列" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;fontSize=18;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
-          <mxGeometry x="290" y="523" width="110" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-29" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontSize=18;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="FIGIB_8hsxKfk9FqheqO-15" source="FIGIB_8hsxKfk9FqheqO-16" target="FIGIB_8hsxKfk9FqheqO-27">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="343" as="sourcePoint" />
-            <mxPoint x="670" y="293" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="570" y="208" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-30" value="" style="swimlane;startSize=0;fontSize=18;strokeWidth=3;strokeColor=#B266FF;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
           <mxGeometry x="640" y="548" width="360" height="190" as="geometry" />
         </mxCell>
@@ -136,33 +124,6 @@
         </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-35" value="任务执行器,下沉至Java-worker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-30">
           <mxGeometry x="45" y="7" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-36" value="监听任务队列" style="endArrow=classic;html=1;rounded=0;fontSize=18;startSize=23;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="FIGIB_8hsxKfk9FqheqO-15" source="FIGIB_8hsxKfk9FqheqO-30" target="FIGIB_8hsxKfk9FqheqO-27">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="763" as="sourcePoint" />
-            <mxPoint x="370" y="713" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="570" y="596" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-37" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;startSize=23;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="FIGIB_8hsxKfk9FqheqO-15" source="FIGIB_8hsxKfk9FqheqO-30" target="FIGIB_8hsxKfk9FqheqO-28">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="773" as="sourcePoint" />
-            <mxPoint x="500" y="723" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="345" y="643" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-38" value="监听任务状态" style="endArrow=classic;html=1;rounded=0;fontSize=18;startSize=23;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="FIGIB_8hsxKfk9FqheqO-15" source="FIGIB_8hsxKfk9FqheqO-16" target="FIGIB_8hsxKfk9FqheqO-28">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="453" as="sourcePoint" />
-            <mxPoint x="380" y="403" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="360" y="383" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-39" value="&lt;font&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;SpringBoot&lt;/span&gt;&lt;/font&gt;" style="rounded=1;align=center;fillColor=#ffff88;strokeColor=#36393d;html=1;fontSize=12;fontColor=default;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
           <mxGeometry x="44" y="32" width="132" height="60" as="geometry" />
@@ -197,11 +158,67 @@
         <mxCell id="FIGIB_8hsxKfk9FqheqO-49" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
           <mxGeometry x="80" y="92" width="60" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-106" value="作业调度-slurm" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=meeting_scheduling_and_management_server;fillColor=#FAFAFA;strokeColor=#005073;fontColor=default;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
+          <mxGeometry x="491" y="350" width="64" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-111" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.015;exitY=0.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="FIGIB_8hsxKfk9FqheqO-15" source="FIGIB_8hsxKfk9FqheqO-106" target="FIGIB_8hsxKfk9FqheqO-109">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="411" y="450" as="sourcePoint" />
+            <mxPoint x="461" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-115" value="" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
+          <mxGeometry x="560" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-116" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FIGIB_8hsxKfk9FqheqO-15" source="FIGIB_8hsxKfk9FqheqO-106" target="FIGIB_8hsxKfk9FqheqO-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="621" y="400" as="sourcePoint" />
+            <mxPoint x="671" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-125" value="计算work" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="FIGIB_8hsxKfk9FqheqO-116">
+          <mxGeometry x="-0.454" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-117" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FIGIB_8hsxKfk9FqheqO-15" source="FIGIB_8hsxKfk9FqheqO-115" target="FIGIB_8hsxKfk9FqheqO-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="691" y="480" as="sourcePoint" />
+            <mxPoint x="741" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-118" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="FIGIB_8hsxKfk9FqheqO-117">
+          <mxGeometry x="-0.6292" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-124" value="执行任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="FIGIB_8hsxKfk9FqheqO-117">
+          <mxGeometry x="0.2921" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-119" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="FIGIB_8hsxKfk9FqheqO-15" source="FIGIB_8hsxKfk9FqheqO-115" target="FIGIB_8hsxKfk9FqheqO-122">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="431" y="530" as="sourcePoint" />
+            <mxPoint x="481" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-121" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="FIGIB_8hsxKfk9FqheqO-119">
+          <mxGeometry x="-0.3381" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-122" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
+          <mxGeometry x="439" y="435" width="50" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-50" value="平台监控" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="865" y="752" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-51" value="发送任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="595" y="732" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-52" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FIGIB_8hsxKfk9FqheqO-9" target="FIGIB_8hsxKfk9FqheqO-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -356,18 +373,18 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-89" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;startSize=23;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FIGIB_8hsxKfk9FqheqO-30" target="FIGIB_8hsxKfk9FqheqO-73">
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-89" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;startSize=23;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" parent="1" source="FIGIB_8hsxKfk9FqheqO-30" target="FIGIB_8hsxKfk9FqheqO-73">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="1350" as="sourcePoint" />
             <mxPoint x="370" y="1300" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="260" y="1238" />
+              <mxPoint x="410" y="1210" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-90" value="生成参数文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="FIGIB_8hsxKfk9FqheqO-89">
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-90" value="生成参数文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;labelBackgroundColor=default;fontColor=default;" vertex="1" connectable="0" parent="FIGIB_8hsxKfk9FqheqO-89">
           <mxGeometry x="-0.1443" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
+            <mxPoint x="98" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-91" value="Java-worker" style="swimlane;fillColor=#3333FF;strokeColor=default;fontColor=default;" vertex="1" parent="1">
@@ -396,6 +413,42 @@
         </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-99" value="https://gitee.com/xuxueli0323/xxl-job&lt;br&gt;XXL-JOB是一个分布式任务调度平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="670" y="2390" width="238" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-107" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.85;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FIGIB_8hsxKfk9FqheqO-75" target="FIGIB_8hsxKfk9FqheqO-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="1150" as="sourcePoint" />
+            <mxPoint x="413.6400000000001" y="999.3800000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-108" value="获取任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="FIGIB_8hsxKfk9FqheqO-107">
+          <mxGeometry x="0.5391" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-110" value="任务入库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="FIGIB_8hsxKfk9FqheqO-107">
+          <mxGeometry x="0.6092" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-126" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.883;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIGIB_8hsxKfk9FqheqO-115" target="FIGIB_8hsxKfk9FqheqO-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="1040" as="sourcePoint" />
+            <mxPoint x="530" y="1060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="659" y="1050" />
+              <mxPoint x="400" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-127" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="FIGIB_8hsxKfk9FqheqO-126">
+          <mxGeometry x="-0.8512" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-128" value="更新作业状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="FIGIB_8hsxKfk9FqheqO-126">
+          <mxGeometry x="-0.4027" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
