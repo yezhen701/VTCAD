@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T03:08:15.477Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="JeFs-Iv7qDdep9ecDWuW" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T03:14:01.117Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="-k1Lsl9wNhVCjj_Gv9E2" version="15.6.6" type="github">
   <diagram id="qDoRCjZpvKYwgtijY3Rj" name="Page-1">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -128,7 +128,7 @@
         <mxCell id="FIGIB_8hsxKfk9FqheqO-39" value="&lt;font&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;SpringBoot&lt;/span&gt;&lt;/font&gt;" style="rounded=1;align=center;fillColor=#ffff88;strokeColor=#36393d;html=1;fontSize=12;fontColor=default;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
           <mxGeometry x="44" y="32" width="132" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-40" value="" style="swimlane;startSize=0;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-40" value="" style="swimlane;startSize=0;fontColor=#000000;strokeColor=#B09500;fillColor=#e3c800;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
           <mxGeometry x="10" y="192" width="200" height="648" as="geometry" />
         </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-41" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Spring Cloud Task&lt;/span&gt;" style="rounded=1;align=center;fillColor=#FF0000;strokeColor=none;html=1;fontColor=#596780;fontSize=12" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-40">
@@ -137,7 +137,7 @@
         <mxCell id="FIGIB_8hsxKfk9FqheqO-42" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Spring Cloud Stream&lt;/span&gt;&lt;div style=&quot;resize: none ; outline: none ; color: rgb(50 , 50 , 50)&quot;&gt;只支持 RabbitMQ 和 Kafka&amp;nbsp;&lt;/div&gt;" style="rounded=1;align=center;fillColor=#FF3333;strokeColor=none;html=1;fontColor=#596780;fontSize=12" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-40">
           <mxGeometry x="35.8" y="78" width="132" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-43" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Rabbit/Zero MQ&lt;/span&gt;" style="rounded=1;align=center;fillColor=#e51400;strokeColor=#B20000;html=1;fontColor=#ffffff;fontSize=12" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-40">
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-43" value="&lt;span style=&quot;font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;Rabbit/Zero MQ&lt;/span&gt;" style="rounded=1;align=center;fillColor=#e51400;strokeColor=#B20000;html=1;fontSize=12;fontColor=#ffffff;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-40">
           <mxGeometry x="34" y="278" width="132" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-44" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Maven&lt;/span&gt;" style="rounded=1;align=center;fillColor=#FF0000;strokeColor=none;html=1;fontColor=#596780;fontSize=12" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-40">
@@ -155,7 +155,7 @@
         <mxCell id="FIGIB_8hsxKfk9FqheqO-48" value="&lt;font&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;调度策略?&lt;/span&gt;&lt;/font&gt;" style="rounded=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;html=1;fontSize=12;fontColor=default;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-40">
           <mxGeometry x="35.8" y="351" width="132" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-129" value="&lt;font color=&quot;#323232&quot;&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;socket&lt;/span&gt;&lt;/font&gt;" style="rounded=1;align=center;fillColor=#ffff66;strokeColor=none;html=1;fontColor=#596780;fontSize=12" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-40">
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-129" value="&lt;font color=&quot;#323232&quot;&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;slurm&lt;/span&gt;&lt;/font&gt;" style="rounded=1;align=center;fillColor=#ffff66;strokeColor=none;html=1;fontColor=#596780;fontSize=12" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-40">
           <mxGeometry x="35.80000000000001" y="213" width="132" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-49" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
@@ -227,7 +227,7 @@
             <mxPoint x="581" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-134" value="推送job" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="FIGIB_8hsxKfk9FqheqO-133">
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-134" value="push-job" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="FIGIB_8hsxKfk9FqheqO-133">
           <mxGeometry x="-0.1279" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
