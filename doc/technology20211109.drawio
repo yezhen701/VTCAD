@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T03:04:35.735Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="ZTemLwaFGkQTi1GMHOoY" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T03:08:15.477Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="JeFs-Iv7qDdep9ecDWuW" version="15.6.6" type="github">
   <diagram id="qDoRCjZpvKYwgtijY3Rj" name="Page-1">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -122,8 +122,8 @@
         <mxCell id="FIGIB_8hsxKfk9FqheqO-34" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;SSH适配器&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#FF0000;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-30">
           <mxGeometry x="200" y="126" width="150" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-35" value="任务执行器,下沉至Java-worker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-30">
-          <mxGeometry x="45" y="7" width="260" height="30" as="geometry" />
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-35" value="任务执行器-Java-worker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-30">
+          <mxGeometry x="70" y="7" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-39" value="&lt;font&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;SpringBoot&lt;/span&gt;&lt;/font&gt;" style="rounded=1;align=center;fillColor=#ffff88;strokeColor=#36393d;html=1;fontSize=12;fontColor=default;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-15">
           <mxGeometry x="44" y="32" width="132" height="60" as="geometry" />
