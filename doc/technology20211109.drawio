@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T03:34:17.054Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="8OuZepwHfFrW_0etwB0s" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T08:23:34.633Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="bvUVDRvmpM7am9IbtQie" version="15.6.6" type="github">
   <diagram id="qDoRCjZpvKYwgtijY3Rj" name="Page-1">
-    <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -479,16 +479,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-139" value="mark-list" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=default;fontSize=18;fontColor=#FF3333;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="600" y="2421" width="378" height="120" as="geometry" />
+          <mxGeometry x="600" y="2421" width="378" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-140" value="1. 一个项目只能在同一个服务器进行仿真" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;labelBackgroundColor=default;fontSize=18;fontColor=#FF3333;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-139">
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-140" value="1. 一个项目只能在同一个服务器进行仿真--废弃" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;labelBackgroundColor=default;fontSize=18;fontColor=#FF3333;fontStyle=0;horizontal=1;whiteSpace=wrap;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-139">
           <mxGeometry y="30" width="378" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-141" value="2. https://gitee.com/xuxueli0323/xxl-job" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;labelBackgroundColor=default;fontSize=18;fontColor=#FF3333;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-139">
           <mxGeometry y="60" width="378" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-142" value="3. XXL-JOB是一个分布式任务调度平台" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;labelBackgroundColor=default;fontSize=18;fontColor=#FF3333;" vertex="1" parent="FIGIB_8hsxKfk9FqheqO-139">
-          <mxGeometry y="90" width="378" height="30" as="geometry" />
+          <mxGeometry y="90" width="378" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FIGIB_8hsxKfk9FqheqO-262" value="Browser" style="swimlane;strokeColor=#66ccff;strokeWidth=3;fontSize=18;fillColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="215" y="3360" width="780" height="169" as="geometry" />
