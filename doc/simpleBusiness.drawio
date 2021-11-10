@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T07:53:48.382Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="YXtoN3ytJNnTk1Dak2W9" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T10:46:19.787Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="mv7KOAuNqXzYiHXerfM6" version="15.6.6" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -222,35 +222,11 @@
         <mxCell id="8JtYcUfM9IEuaBObehJX-176" value="java-worker-service" style="swimlane;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="520" y="145.5" width="220" height="190.5" as="geometry" />
         </mxCell>
-        <mxCell id="8JtYcUfM9IEuaBObehJX-177" value="任务调度" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" vertex="1" parent="8JtYcUfM9IEuaBObehJX-176">
-          <mxGeometry x="10" y="40" width="85" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="8JtYcUfM9IEuaBObehJX-178" value="任务策略" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" vertex="1" parent="8JtYcUfM9IEuaBObehJX-176">
-          <mxGeometry x="120" y="40" width="85" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="8JtYcUfM9IEuaBObehJX-179" value="任务&lt;br&gt;状态变更" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" vertex="1" parent="8JtYcUfM9IEuaBObehJX-176">
           <mxGeometry x="10" y="120.5" width="85" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8JtYcUfM9IEuaBObehJX-180" value="任务执行" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" vertex="1" parent="8JtYcUfM9IEuaBObehJX-176">
           <mxGeometry x="120" y="120.5" width="85" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="8JtYcUfM9IEuaBObehJX-181" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;" edge="1" parent="8JtYcUfM9IEuaBObehJX-176" source="8JtYcUfM9IEuaBObehJX-177" target="8JtYcUfM9IEuaBObehJX-178">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="130.5" as="sourcePoint" />
-            <mxPoint x="140" y="80.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="110" y="40.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8JtYcUfM9IEuaBObehJX-182" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;align=center;" edge="1" parent="8JtYcUfM9IEuaBObehJX-176" source="8JtYcUfM9IEuaBObehJX-178" target="8JtYcUfM9IEuaBObehJX-180">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="140.5" as="sourcePoint" />
-            <mxPoint x="130" y="90.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="192" y="100.5" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="8JtYcUfM9IEuaBObehJX-183" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;align=center;" edge="1" parent="8JtYcUfM9IEuaBObehJX-176" source="8JtYcUfM9IEuaBObehJX-180" target="8JtYcUfM9IEuaBObehJX-179">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -258,6 +234,18 @@
             <mxPoint x="120" y="90.5" as="targetPoint" />
             <Array as="points">
               <mxPoint x="100" y="170.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8JtYcUfM9IEuaBObehJX-206" value="接收任务" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" vertex="1" parent="8JtYcUfM9IEuaBObehJX-176">
+          <mxGeometry x="60" y="34.5" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8JtYcUfM9IEuaBObehJX-182" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;align=center;" edge="1" parent="8JtYcUfM9IEuaBObehJX-176" source="8JtYcUfM9IEuaBObehJX-206" target="8JtYcUfM9IEuaBObehJX-180">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="140.5" as="sourcePoint" />
+            <mxPoint x="130" y="90.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="192" y="100.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -287,6 +275,48 @@
         </mxCell>
         <mxCell id="8JtYcUfM9IEuaBObehJX-193" value="仿 真.exe" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#001DBC;fillColor=#0050ef;fontColor=#ffffff;align=center;" vertex="1" parent="1">
           <mxGeometry x="720" y="496" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8JtYcUfM9IEuaBObehJX-195" value="Java-gateway-service" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#001DBC;fillColor=#0050ef;fontColor=#ffffff;align=center;" vertex="1" parent="1">
+          <mxGeometry x="110" y="810" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8JtYcUfM9IEuaBObehJX-196" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="880" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="8JtYcUfM9IEuaBObehJX-197" value="1. 任务一次性发布到队列&#xa;通过任务调度，任务策略&#xa;判断可以执行的任务，&#xa;发送至worker，并更新&#xa;任务状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="8JtYcUfM9IEuaBObehJX-196">
+          <mxGeometry y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8JtYcUfM9IEuaBObehJX-198" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="8JtYcUfM9IEuaBObehJX-196">
+          <mxGeometry y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8JtYcUfM9IEuaBObehJX-199" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="8JtYcUfM9IEuaBObehJX-196">
+          <mxGeometry y="130" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8JtYcUfM9IEuaBObehJX-200" value="java-gateway-service" style="swimlane;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="231" y="890" width="140" height="223" as="geometry" />
+        </mxCell>
+        <mxCell id="8JtYcUfM9IEuaBObehJX-201" value="任务调度" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" vertex="1" parent="8JtYcUfM9IEuaBObehJX-200">
+          <mxGeometry x="25" y="40" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8JtYcUfM9IEuaBObehJX-202" value="任务策略" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" vertex="1" parent="8JtYcUfM9IEuaBObehJX-200">
+          <mxGeometry x="27.5" y="100" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8JtYcUfM9IEuaBObehJX-203" value="推送任务&lt;br&gt;至worker" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" vertex="1" parent="8JtYcUfM9IEuaBObehJX-200">
+          <mxGeometry x="27.5" y="160" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8JtYcUfM9IEuaBObehJX-177" value="任务调度" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=#FF0000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="310" y="145.5" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8JtYcUfM9IEuaBObehJX-181" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="8JtYcUfM9IEuaBObehJX-177" target="8JtYcUfM9IEuaBObehJX-178">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="236" as="sourcePoint" />
+            <mxPoint x="440" y="186" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="146" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8JtYcUfM9IEuaBObehJX-178" value="任务策略" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=#FF0000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="420" y="145.5" width="85" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
