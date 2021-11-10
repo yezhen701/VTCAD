@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T03:15:19.813Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="1uoWSVjh4EBKb7dmpuT2" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T06:57:02.174Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Sw2h7-J0l8HiJeT87_Hc" version="15.6.6" type="github">
   <diagram id="qDoRCjZpvKYwgtijY3Rj" name="Page-1">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
@@ -243,7 +243,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FIGIB_8hsxKfk9FqheqO-136" value="注册服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="FIGIB_8hsxKfk9FqheqO-135">
+        <mxCell id="FIGIB_8hsxKfk9FqheqO-136" value="注册服务&lt;br&gt;或是命令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="FIGIB_8hsxKfk9FqheqO-135">
           <mxGeometry x="-0.0789" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
