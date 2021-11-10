@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T07:27:52.226Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="0DT3_-tQ9tYEtktB2QRk" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T07:28:43.603Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="3Z2kzbsORFnb9FMxCyYG" version="15.6.6" type="github">
   <diagram id="sunOd65pkQuhWuyI_Ne-" name="Page-1">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -939,6 +939,17 @@
         <mxCell id="D765WGngUN2JgHvjqmhj-231" value="获取任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="D765WGngUN2JgHvjqmhj-230">
           <mxGeometry x="-0.5726" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D765WGngUN2JgHvjqmhj-232" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.601;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D765WGngUN2JgHvjqmhj-16" target="D765WGngUN2JgHvjqmhj-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="620" as="sourcePoint" />
+            <mxPoint x="610" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D765WGngUN2JgHvjqmhj-233" value="任务信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="D765WGngUN2JgHvjqmhj-232">
+          <mxGeometry x="0.5517" y="-3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
