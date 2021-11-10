@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T07:32:46.383Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Rgi5dTj-_JQxI27lDI7S" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T07:53:48.382Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="YXtoN3ytJNnTk1Dak2W9" version="15.6.6" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -219,7 +219,7 @@
             <mxPoint x="713" y="526" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8JtYcUfM9IEuaBObehJX-176" value="java-wroker-service" style="swimlane;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;startSize=23;" vertex="1" parent="1">
+        <mxCell id="8JtYcUfM9IEuaBObehJX-176" value="java-worker-service" style="swimlane;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="520" y="145.5" width="220" height="190.5" as="geometry" />
         </mxCell>
         <mxCell id="8JtYcUfM9IEuaBObehJX-177" value="任务调度" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" vertex="1" parent="8JtYcUfM9IEuaBObehJX-176">
