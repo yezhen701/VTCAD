@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-11T05:29:27.777Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="wjNESCNwSBw3EudkvB0p" version="15.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-11T09:24:51.902Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="uxXdpCwkpCq48mVpVzDu" version="15.7.1" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -158,7 +158,7 @@
           <mxGeometry x="397.75" y="720" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8JtYcUfM9IEuaBObehJX-258" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;align=center;" parent="1" vertex="1">
-          <mxGeometry x="22.75" y="950" width="140" height="130" as="geometry" />
+          <mxGeometry x="40" y="980" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="8JtYcUfM9IEuaBObehJX-259" value="1. 任务一次性发布到队列&#xa;通过任务调度，任务策略&#xa;判断可以执行的任务，&#xa;发送至worker，并更新&#xa;任务状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" parent="8JtYcUfM9IEuaBObehJX-258" vertex="1">
           <mxGeometry y="30" width="140" height="70" as="geometry" />
