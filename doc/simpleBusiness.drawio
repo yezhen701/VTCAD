@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T03:15:27.746Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="6a8DlTXboXqAXeochkKw" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-12T07:53:00.525Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="kp4kfYcjThQLxVDNk4ss" version="15.7.3" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -152,7 +152,7 @@
         <mxCell id="8JtYcUfM9IEuaBObehJX-259" value="1. 任务一次性发布到队列通过&#xa;任务调度，任务策略判断可以&#xa;执行的任务，发送至slurm，&#xa;并更新任务状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" parent="8JtYcUfM9IEuaBObehJX-258" vertex="1">
           <mxGeometry y="30" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8JtYcUfM9IEuaBObehJX-260" value="重点问题记录：&#xa;1.技术难点：大文件的处理&#xa;2.业务难点：任务可执行策略&#xa;算法，有向无环&#xa;3.计算盲点：slurmde应用&#xa;4.项目风险点：java-gateway-service&#xa;业务复杂，与web服务和worker服务&#xa;均有交互并且只能单实例部署，&#xa;一旦服务异常其他服务均受到不同&#xa;程度的影响。使用mq消息中间件后，&#xa;程序间的依赖会有一定的解耦，&#xa;风险会降低，但没有得到彻底解决，&#xa;后期为优化重点&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" parent="8JtYcUfM9IEuaBObehJX-258" vertex="1">
+        <mxCell id="8JtYcUfM9IEuaBObehJX-260" value="重点问题记录：&#xa;1.技术难点：大文件的处理&#xa;2.业务难点：任务可执行策略&#xa;算法，有向无环&#xa;3.计术盲点：slurm的应用&#xa;4.项目风险点：java-gateway-service&#xa;业务复杂，与web服务和worker服务&#xa;均有交互并且只能单实例部署，&#xa;一旦服务异常其他服务均受到不同&#xa;程度的影响。使用mq消息中间件后，&#xa;程序间的依赖会有一定的解耦，&#xa;风险会降低，但没有得到彻底解决，&#xa;后期为优化重点&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" parent="8JtYcUfM9IEuaBObehJX-258" vertex="1">
           <mxGeometry y="100" width="210" height="190" as="geometry" />
         </mxCell>
         <mxCell id="8JtYcUfM9IEuaBObehJX-262" value="java-gateway-service" style="swimlane;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" parent="1" vertex="1">
