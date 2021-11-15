@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T10:07:46.451Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="FhFMl78QOopNhbL4Ahlm" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T10:08:44.911Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="y6uuydtI84KVeHRrgJSX" version="15.7.3" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -161,6 +161,9 @@
         </mxCell>
         <mxCell id="5AFQF3MTORODZiCQAGDJ-216" value="N" style="resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="5AFQF3MTORODZiCQAGDJ-215">
           <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5AFQF3MTORODZiCQAGDJ-236" value="属性类型，属性长度" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="70" y="460" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
