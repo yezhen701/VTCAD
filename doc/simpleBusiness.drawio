@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T02:13:01.502Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="cQVmIxCALiFS9hgBSRsk" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-16T02:23:18.349Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="hFEsRvpAAKvXM7K_J--V" version="15.7.3" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -153,7 +153,7 @@
           <mxGeometry y="100" width="210" height="190" as="geometry" />
         </mxCell>
         <mxCell id="8JtYcUfM9IEuaBObehJX-262" value="java-gateway-service" style="swimlane;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="850" width="140" height="223" as="geometry" />
+          <mxGeometry x="130" y="740" width="130" height="220" as="geometry" />
         </mxCell>
         <mxCell id="8JtYcUfM9IEuaBObehJX-263" value="任务调度" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" parent="8JtYcUfM9IEuaBObehJX-262" vertex="1">
           <mxGeometry x="25" y="40" width="85" height="50" as="geometry" />
@@ -161,7 +161,7 @@
         <mxCell id="8JtYcUfM9IEuaBObehJX-264" value="任务策略" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" parent="8JtYcUfM9IEuaBObehJX-262" vertex="1">
           <mxGeometry x="27.5" y="100" width="85" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8JtYcUfM9IEuaBObehJX-265" value="推送任务&lt;br&gt;至worker" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" parent="8JtYcUfM9IEuaBObehJX-262" vertex="1">
+        <mxCell id="8JtYcUfM9IEuaBObehJX-265" value="推送任务&lt;br&gt;至消息队列" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;align=center;" parent="8JtYcUfM9IEuaBObehJX-262" vertex="1">
           <mxGeometry x="27.5" y="160" width="85" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8JtYcUfM9IEuaBObehJX-269" value="" style="swimlane;startSize=0;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;align=center;" parent="1" vertex="1">
@@ -179,12 +179,12 @@
         <mxCell id="2j4pdHEftP-hzSSoYdJb-28" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=default;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/ellipsis-vertical-128.png;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="8JtYcUfM9IEuaBObehJX-269">
           <mxGeometry x="52" y="230" width="36" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="8JtYcUfM9IEuaBObehJX-279" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;align=center;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2j4pdHEftP-hzSSoYdJb-18" target="8JtYcUfM9IEuaBObehJX-269" edge="1">
+        <mxCell id="8JtYcUfM9IEuaBObehJX-279" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;align=center;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2j4pdHEftP-hzSSoYdJb-18" target="8JtYcUfM9IEuaBObehJX-269" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="310" y="900" as="sourcePoint" />
             <mxPoint x="242.75" y="710" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="153" y="1003" />
+              <mxPoint x="80" y="1003" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -641,6 +641,12 @@
         <mxCell id="2j4pdHEftP-hzSSoYdJb-43" value="生成任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2j4pdHEftP-hzSSoYdJb-40">
           <mxGeometry x="-0.1859" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2j4pdHEftP-hzSSoYdJb-47" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8JtYcUfM9IEuaBObehJX-257" target="8JtYcUfM9IEuaBObehJX-262">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="680" as="sourcePoint" />
+            <mxPoint x="280" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
