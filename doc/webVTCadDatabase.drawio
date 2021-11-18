@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T09:35:37.356Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="pytoLfgqNXLY_4CEQOuD" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T09:36:54.854Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Y5fqRa8lJu5g1BKNcAYl" version="15.7.3" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1318,7 +1318,7 @@
         <mxCell id="5AFQF3MTORODZiCQAGDJ-737" value="执行完毕" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="5AFQF3MTORODZiCQAGDJ-732" vertex="1">
           <mxGeometry y="146" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5AFQF3MTORODZiCQAGDJ-740" value="优先级：前端指定，后端策略计算" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5AFQF3MTORODZiCQAGDJ-782" vertex="1">
+        <mxCell id="5AFQF3MTORODZiCQAGDJ-740" value="优先级：前端设置，后端策略计算" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5AFQF3MTORODZiCQAGDJ-782" vertex="1">
           <mxGeometry x="10" y="230" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dZR4hdubqBpOCBKb2a_B-1" value="items_task-任务管理" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
