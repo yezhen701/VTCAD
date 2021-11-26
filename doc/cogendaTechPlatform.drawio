@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T03:12:56.259Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="O9xih0ugOjbrIk3gpfSk" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T05:40:44.181Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="4qNHxYzrsLcqFCneBCEQ" version="15.8.6" type="github">
   <diagram id="sunOd65pkQuhWuyI_Ne-" name="Page-1">
     <mxGraphModel dx="1350" dy="-849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1039,7 +1039,7 @@
         <mxCell id="DKPP0VOqsDSIva2k2A_w-124" value="&lt;font color=&quot;#323232&quot;&gt;MongoTemplate&lt;/font&gt;" style="rounded=1;align=center;fillColor=#ffff66;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="DKPP0VOqsDSIva2k2A_w-36" vertex="1">
           <mxGeometry x="34.000000000000014" y="428" width="132" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aDqACey5QXyTZbPOuQNo-1" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;ZeroMQ/RabbitMQ&lt;/span&gt;" style="rounded=1;align=center;fillColor=#ffff66;strokeColor=none;html=1;fontColor=#596780;fontSize=12" vertex="1" parent="DKPP0VOqsDSIva2k2A_w-36">
+        <mxCell id="aDqACey5QXyTZbPOuQNo-1" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;ZeroMQ/RabbitMQ&lt;/span&gt;" style="rounded=1;align=center;fillColor=#ffff66;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="DKPP0VOqsDSIva2k2A_w-36" vertex="1">
           <mxGeometry x="34.000000000000014" y="188" width="132" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DKPP0VOqsDSIva2k2A_w-46" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" parent="DKPP0VOqsDSIva2k2A_w-16" vertex="1">
