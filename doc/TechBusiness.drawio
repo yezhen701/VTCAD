@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-28T02:10:29.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="diFogHnE4cXlRjdsk0OK" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-28T02:18:20.687Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="rq97VuinBjjRkTmwwq5z" version="15.8.6" type="github">
   <diagram id="rORjgk0GOdBi2ZtZiDBJ" name="Page-1">
     <mxGraphModel dx="786" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -806,19 +806,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8mrrNZGysteMXvkClCAR-31" value="系统配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="316" y="3040" width="120" height="60" as="geometry" />
+          <mxGeometry x="316" y="3027" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8mrrNZGysteMXvkClCAR-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8mrrNZGysteMXvkClCAR-32" target="8mrrNZGysteMXvkClCAR-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8mrrNZGysteMXvkClCAR-32" value="项目管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="316" y="3130" width="120" height="60" as="geometry" />
+          <mxGeometry x="316" y="3150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8mrrNZGysteMXvkClCAR-33" value="状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="3220" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="3272" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8mrrNZGysteMXvkClCAR-34" value="日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="319.5" y="3310" width="120" height="60" as="geometry" />
+          <mxGeometry x="319.5" y="3362" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8mrrNZGysteMXvkClCAR-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8mrrNZGysteMXvkClCAR-35" target="8mrrNZGysteMXvkClCAR-34">
           <mxGeometry relative="1" as="geometry" />
@@ -827,13 +827,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8mrrNZGysteMXvkClCAR-35" value="&lt;br&gt;Rabbit&lt;br&gt;MQ" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.sequential_data;whiteSpace=wrap;shadow=0;labelBackgroundColor=default;fontSize=10;fontColor=default;fillColor=default;verticalAlign=top;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="180" y="3262" width="70" height="70" as="geometry" />
+          <mxGeometry x="180" y="3314" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8mrrNZGysteMXvkClCAR-47" value="业务流程处理" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="3080" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8mrrNZGysteMXvkClCAR-54" value="存储" style="swimlane;horizontal=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="3320" width="199" height="220" as="geometry" />
+          <mxGeometry x="560" y="3260" width="199" height="220" as="geometry" />
         </mxCell>
         <mxCell id="8mrrNZGysteMXvkClCAR-50" value="MongoDB" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;shadow=0;labelBackgroundColor=default;fontSize=10;fontColor=default;strokeColor=default;strokeWidth=1;fillColor=default;verticalAlign=top;" vertex="1" parent="8mrrNZGysteMXvkClCAR-54">
           <mxGeometry x="96" y="10" width="46" height="60" as="geometry" />
@@ -846,9 +846,12 @@
             <mxPoint x="590" y="3350" as="sourcePoint" />
             <mxPoint x="640" y="3300" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="690" y="3120" />
+              <mxPoint x="660" y="3120" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8mrrNZGysteMXvkClCAR-58" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/font-awesome-solid-vol-2/512/ellipsis-v-128.png" vertex="1" parent="1">
+          <mxGeometry x="356" y="3100" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
