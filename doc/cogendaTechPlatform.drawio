@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T03:50:33.431Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="nzH4x1Zfx_QRN4AjT5bU" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-29T03:54:15.546Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="QjGHvAzcbgIhBXVJLx_N" version="15.8.6" type="github">
   <diagram id="sunOd65pkQuhWuyI_Ne-" name="Page-1">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1077,13 +1077,13 @@
             <mxRectangle x="24" y="280" width="40" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7Y_xdOyaLyqtnfyduFFx-34" value="java-web-service" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="7Y_xdOyaLyqtnfyduFFx-15">
+        <mxCell id="7Y_xdOyaLyqtnfyduFFx-34" value="web-api" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="7Y_xdOyaLyqtnfyduFFx-15">
           <mxGeometry x="460" y="180" width="154" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7Y_xdOyaLyqtnfyduFFx-35" value="java-gateway-service" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="7Y_xdOyaLyqtnfyduFFx-15">
+        <mxCell id="7Y_xdOyaLyqtnfyduFFx-35" value="coordinator" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="7Y_xdOyaLyqtnfyduFFx-15">
           <mxGeometry x="252.5" y="180" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7Y_xdOyaLyqtnfyduFFx-36" value="java-worker-service" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="7Y_xdOyaLyqtnfyduFFx-15">
+        <mxCell id="7Y_xdOyaLyqtnfyduFFx-36" value="job-worker" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="7Y_xdOyaLyqtnfyduFFx-15">
           <mxGeometry x="44" y="180" width="144" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7Y_xdOyaLyqtnfyduFFx-38" value="&lt;font style=&quot;font-size: 18px&quot;&gt;数据仓库&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;strokeColor=#6699ff;strokeWidth=3;fontSize=18;fillColor=#6666FF;" vertex="1" parent="7Y_xdOyaLyqtnfyduFFx-15">
