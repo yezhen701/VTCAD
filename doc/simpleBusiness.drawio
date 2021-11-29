@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T03:02:02.795Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="rxcW3Jc7jRprcl-XaAkT" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-29T03:03:41.142Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Jt-qfcOVDsZ_gQWR1Fct" version="15.8.6" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="1361" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -134,7 +134,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6H5OHKeQBbOHRSQjsgT--6" value="数据+&lt;br&gt;任务+文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8JtYcUfM9IEuaBObehJX-279" vertex="1" connectable="0">
+        <mxCell id="6H5OHKeQBbOHRSQjsgT--6" value="配置,任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8JtYcUfM9IEuaBObehJX-279" vertex="1" connectable="0">
           <mxGeometry x="0.3161" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
