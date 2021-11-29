@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T01:32:43.713Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="xWypLKppncqsP34ZZoKB" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-29T05:08:33.705Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="VLXbprZ-to4fZcDCZ2mn" version="15.8.6" type="github">
   <diagram id="rORjgk0GOdBi2ZtZiDBJ" name="Page-1">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -896,10 +896,10 @@
         <mxCell id="nknDz0506LNxt2kuxKW1-22" value="Amazon S3&lt;br&gt;DFS" style="shape=cloud;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=default;fontSize=10;fontColor=default;strokeColor=default;strokeWidth=1;fillColor=default;verticalAlign=top;" parent="nknDz0506LNxt2kuxKW1-20" vertex="1">
           <mxGeometry x="170" y="10" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="nknDz0506LNxt2kuxKW1-28" value="Java-web-service业务逻辑交互图" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;shadow=0;labelBackgroundColor=default;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="nknDz0506LNxt2kuxKW1-28" value="web-api业务逻辑交互图" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;shadow=0;labelBackgroundColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="131" y="2958" width="470" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nknDz0506LNxt2kuxKW1-29" value="Java-gateway-service业务逻辑交互图" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;shadow=0;labelBackgroundColor=default;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="nknDz0506LNxt2kuxKW1-29" value="coordinator-业务逻辑交互图" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;shadow=0;labelBackgroundColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="200" y="3540" width="470" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nknDz0506LNxt2kuxKW1-30" value="消息监听列表(worker)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
