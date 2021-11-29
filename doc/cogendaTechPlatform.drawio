@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T10:09:54.550Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="NSOftZ6ZOGGOcbHg_ptT" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-29T03:50:33.431Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="nzH4x1Zfx_QRN4AjT5bU" version="15.8.6" type="github">
   <diagram id="sunOd65pkQuhWuyI_Ne-" name="Page-1">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1116,7 +1116,7 @@
         <mxCell id="7Y_xdOyaLyqtnfyduFFx-49" value="用户管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="7Y_xdOyaLyqtnfyduFFx-15">
           <mxGeometry x="487" y="350" width="117" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7Y_xdOyaLyqtnfyduFFx-50" value="配置中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="7Y_xdOyaLyqtnfyduFFx-15">
+        <mxCell id="7Y_xdOyaLyqtnfyduFFx-50" value="系统配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="7Y_xdOyaLyqtnfyduFFx-15">
           <mxGeometry x="346" y="285.5" width="258" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7Y_xdOyaLyqtnfyduFFx-51" value="文件管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="7Y_xdOyaLyqtnfyduFFx-15">
